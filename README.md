@@ -1,6 +1,6 @@
-# Periodic Flip #
+# Memorama periodico#
 
-## A Memory Game Featuring Periodic Table Elements ## 
+## Un memorama de 30 elementos de la tabla periodica ## 
 
 ![responsive image](assets/doc/amiresponsive.png)
 
