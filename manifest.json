@@ -1,0 +1,11 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "vinceyt29.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "vinceyt29.github",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
