@@ -1,13 +1,14 @@
 {
   "name": "Memorama de la tabla periódica",
-  "short_name": "Quim",
-  "description": "Memorama educativo de la tabla periódica",
-  "start_url": "./index.html",
+  "short_name": "Memorama",
+  "description": "Juego educativo de memorama con la tabla periódica.",
+  "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#0d6efd",
+  "lang": "es",
   "icons": [
     {
       "src": "assets/icons/icon-192x192.png",
@@ -19,6 +20,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "prefer_related_applications": false
+  ]
 }
