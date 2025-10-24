@@ -1,24 +1,16 @@
 {
-  "name": "Memorama de la tabla periódica",
-  "short_name": "Memorama",
-  "description": "Juego educativo de memorama con la tabla periódica.",
-  "start_url": "index.html",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#0d6efd",
-  "lang": "es",
-  "icons": [
-    {
-      "src": "assets/images/Beryllium.jpg",
-      "sizes": "192x192",
-      "type": "image/jpg"
-    },
-    {
-      "src": "assets/images/Beryllium.jpg",
-      "sizes": "512x512",
-      "type": "image/jpg"
-    }
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "vinceyt29.github",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "vinceyt29.github",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "window-controls-overlay"
   ]
 }
