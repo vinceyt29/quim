@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body styling*/
+
+body {
+    height: 100vh;
+    background-color: rgb(202, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/*section grid styling*/
+
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 5rem);
+    grid-template-rows: repeat(5, 8rem);
+    grid-gap: 1rem;
+    perspective: 800px;
+}
+
+h1,
+h2 {
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: larger;
+}
+
+/*card styling*/
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+
+/*front, back styling*/
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.back {
+    background-color: gray;
+    backface-visibility: hidden;
+}
+
+.toggleCard {
+    transform: rotateY(180deg);
+}
+
+.front {
+    transform: rotateY(-180deg);
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: medium;
+        color: antiquewhite;
+    }
+
+    h2 {
+        font-size: small;
+        color: antiquewhite;
+    }
+
+    section {
+
+        grid-template-columns: repeat(5, 4.5rem);
+        grid-template-rows: repeat(6, 5.5rem);
+    }
+}
+
+@media only screen and (max-width: 803px) {
+    body {
+        background-color: purple;
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: medium;
+        color: antiquewhite;
+    }
+
+    h2 {
+        font-size: small;
+        color: antiquewhite;
+    }
+
+    section {
+        grid-template-columns: repeat(5, 4.5rem);
+        grid-template-rows: repeat(6, 5.5rem);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: green;
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: small;
+        color: antiquewhite;
+    }
+
+    h2 {
+        font-size: smaller;
+        color: antiquewhite;
+    }
+
+    section {
+        grid-template-columns: repeat(4, 1.95rem);
+        grid-template-rows: repeat(8, 2.3rem);
+    }
+}
